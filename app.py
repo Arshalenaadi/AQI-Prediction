@@ -3,8 +3,8 @@ import pickle
 import numpy as np
 import lightgbm as ltb
 
-model=pickle.load(open('C:/Users/Chinnu/Desktop/aqiprediction/model.pkl','rb'))
-data= pickle.load(open('C:/Users/Chinnu/Desktop/aqiprediction/data.pkl','rb'))
+model=pickle.load(open('model.pkl','rb'))
+data= pickle.load(open('data.pkl','rb'))
 
 st.title('AQI Prediction')
 opt = st.selectbox(
