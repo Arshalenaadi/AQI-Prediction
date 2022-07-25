@@ -5,7 +5,7 @@ import numpy as np
 
 
 
-model=pickle.load(open('model.pkl','rb'))
+model=pickle.load(open('Streamlit_rakuten/model.pkl','rb'))
 data= pickle.load(open('data.pkl','rb'))
 
 st.title('AQI Prediction')
